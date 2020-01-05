@@ -15,7 +15,7 @@ RUN cd /build && go mod download
 
 
 # Application sources:
-COPY ./*.go /build
+COPY ./*.go /build/
 
 # Build:
 RUN cd /build && go build -v
